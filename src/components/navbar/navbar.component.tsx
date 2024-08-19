@@ -1,12 +1,14 @@
 import logo from "/public/logo.png";
 
+import "./navbar.style.css";
+
 function NavBar() {
   return (
-    <div>
+    <div className="navbar">
       <div>
         <img className="logo" src={logo} />
       </div>
-      <div>
+      <div className="links">
         <p>Home</p>
         <p>Courses</p>
       </div>
